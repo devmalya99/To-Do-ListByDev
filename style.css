@@ -1,0 +1,150 @@
+
+/* Use the code below to center  */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(./pro-1.webp) center center/cover ;
+}
+
+.container
+{
+    width: 550px;
+    height: 480px;
+}
+/* Use the above code to center  */
+
+#add-task-container
+{
+    background-color: rgb(181, 197, 212);
+    padding: 20px 10px;
+    margin: 30px;
+    
+    box-sizing: border-box;
+    height: auto;
+    width: 80%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 13px rgb(58, 51, 51);
+    margin-bottom: 20px;
+
+    display: flex;   
+}
+
+input
+{ 
+    flex:4;
+}
+#add-task
+{
+    
+   padding: 7px 15px;
+   border-radius: 7px;
+   margin: 10px;
+   font-size: 20px;
+
+   
+   color: green solid 2px;
+   background-color: rgb(139, 207, 154);
+
+
+}
+#input-task
+{
+    font-size: 20px;
+    border-radius: 10px;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+#add-task:hover
+{
+    background-color: rgb(38, 158, 64);
+}
+
+
+.taskDiv
+{
+    /* background-color: rgb(182, 236, 110); */
+    opacity: 1.5;
+    border-radius: 15px ;
+    
+    align-items: center;
+    text-align: center;
+    
+    padding: 5px;
+    box-shadow: 0 0 15px rgb(36, 37, 34);
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.taskDiv li
+{
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem ;
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 650;
+    border-radius: 10px;
+
+    background-color: rgba(250, 235, 215, 0.514);
+    
+        
+
+}
+
+.checkTask
+{
+    padding: 10px;
+    background-color: rgb(60, 60, 182);
+    color: rgb(236, 239, 241);
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px ;
+}
+.checkTask:hover{
+    background-color: rgb(11, 9, 114);
+}
+
+.deleteTask
+{
+    padding: 10px;
+    background-color: rgb(204, 50, 50);
+    color: rgb(236, 239, 241);
+    font-size: 15px;
+    border-radius: 12px ;
+}
+.deleteTask:hover{
+    background-color: rgb(187, 19, 14);
+}
+
+.editTask
+{
+    padding: 10px;
+    background-color: rgb(185, 19, 163);
+    color: rgb(236, 239, 241);
+    font-size: 15px;
+    border-radius: 12px ;
+    margin: 10px;
+}
+
+.editTask:hover{
+    background-color: rgb(128, 5, 101);
+}
